@@ -1,31 +1,38 @@
 $(document).on('ready', function () {
-    $(".glr-home").slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 20000,
-    });
 
-    $(".glr-receitas").slick({
+    $(".glr-fachada").slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         autoplay: true,
-        autoplaySpeed: 20000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        arrows: true,
     });
 
-    $(".galeria-01").slick({
+    $(".glr-plantas").slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         autoplay: true,
-        autoplaySpeed: 8000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        arrows: true,
     });
-});
 
-$(document).ready(function () {
-    $('#modalPascoa').modal();
+    $(".glr-lazer").slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        arrows: true,
+    });
+
 });
 
 $(document).ready(function () {
@@ -64,7 +71,7 @@ $(document).ready(function () {
 
         var target = this.hash,
             $target = $(target);
-        $('html, body').stop().animate({ scrollTop: $target.offset().top + 8 }, 500, 'swing', function () {
+        $('html, body').stop().animate({ scrollTop: $target.offset().top - 39 }, 500, 'swing', function () {
             // window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
@@ -106,30 +113,62 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://landingpagemodelo.com.br/"
+        window.location.href = "https://hitscupece.com.br/"
     });
 });
 
 $(function () {
     $('.nome').clear();
     $('.email').clear();
-    $('.telefone').clear();
-    $('.assunto1').clear();
-    $('.msg').clear();
+    $('.phone').clear();
+    // $('.imovel').clear();
+    // $('.msg').clear();
 
     $('.btn_enviar').on('click', function () {
-        var n, e, t, a, m;
+        var n, e, t;
         var msg = "";
         n = $('.nome').val();
         e = $('.email').val();
-        t = $('.telefone').val();
-        a = $('.assunto1').val();
-        m = $('.msg').val();
+        t = $('.phone').val();
+        // i = $('.imovel').val();
+        // m = $('.msg').val();
 
-        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
-            setTimeout(function() { 
-                $(".btn_enviar").attr('disabled', 'disabled');
-            }, 1000);
+        if (n !== '' && e !== '' & t !== '') {
+            $(".btn_enviar").text('ENVIAR');
+            $(".btn_enviar").css("background-color", "#209916");
+            $(".btn_enviar").css('border', "2px solid #16740e");
+            $(".btn_enviar").css('color', "#FFFFFF");
         }
+
     });
+
+    $('.phone').inputmask({ "mask": "(99) 999999999" });
+
+});
+
+$(function () {
+    $('.bnome').clear();
+    $('.bemail').clear();
+    $('.bphone').clear();
+    $('.bmsg').clear();
+
+    $('.bbtn_enviar').on('click', function () {
+        var bn, be, bt, bm;
+        var msg = "";
+        bn = $('.bnome').val();
+        be = $('.bemail').val();
+        bt = $('.bphone').val();
+        bm = $('.bmsg').val();
+
+        if (bn !== '' && be !== '' & bt !== '' && bm !== '') {
+            $(".bbtn_enviar").text('SOLICITAR AGENDAMENTO');
+            $(".bbtn_enviar").css("background-color", "#209916");
+            $(".bbtn_enviar").css('border', "2px solid #16740e");
+            $(".bbtn_enviar").css('color', "#FFFFFF");
+        }
+
+    });
+
+    $('.bphone').inputmask({ "mask": "(99) 999999999" });
+
 });

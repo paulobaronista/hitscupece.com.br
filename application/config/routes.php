@@ -40,14 +40,7 @@
 
 $route['default_controller'] = "home";
 $route['politicadeprivacidade'] = "home/politicadeprivacidade";
-$route['politicadecookies'] = "home/politicadecookies";
-$route['blog'] = "home/blog";
-$route['blog/vantagens_de_temperar_sua_salada_com_azeite'] = "home/vantagens_de_temperar_sua_salada_com_azeite";
-$route['receitas'] = "home/receitas";
-$route['receitas/camarao_satteado'] = "home/camarao_satteado";
-$route['receitas/maca_verde'] = "home/maca_verde";
-$route['receitas/cuscuz_camaroes'] = "home/cuscuz_camaroes";
-$route['receitas/bacalhau_confitado'] = "home/bacalhau_confitado";
+$route['beachtennis'] = "home/beachtennis";
 $route['404_override'] = '';
 
 /* End of file routes.php */

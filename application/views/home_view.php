@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default menu">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 padding-off-mobile">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off-mobile">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -9,129 +9,359 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand scrollink" href="#home"><img src="<?= base_url(); ?>assets/images/logo.png" alt="Batalha"></a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="scrollink" href="#produtos">Produtos</a></li>
-                        <li><a href="http://compras.landingpagemodelo.com.br/" target="_blank"><span class="dst">Compre aqui</span></a></li>
-                        <li><a class="scrollink" href="#premios">Prêmios</a></li>
-                        <li><a class="scrollink active" href="#receitas">Receitas</a></li>
-                        <li><a class="scrollink" href="#sobre-nos">Sobre nós</a></li>
-                        <!--<li><a href="<?php echo base_url(); ?>blog">Blog</a></li>-->
-                        <li><a class="scrollink fale-conosco" href="#fale-conosco">Fale conosco</a></li>
-                        <li class="redes"><a href="https://www.instagram.com/azeitebatalha/" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/insta.png" alt="Instagram"></a></li>
-                        <li class="redes"><a href="https://facebook.com/azeitebatalha" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/face.png" alt="Facebook"></a></li>
-                        <!--<li class="redes"><a href="" target="_blank"><img class="" src="<?= base_url(); ?>assets/images/youtube.png" alt="Youtube"></a></li> -->
+                    <ul class="nav navbar-nav">
+                        <li><a class="scrollink" href="#home">HOME</a></li>
+                        <li><a class="scrollink" href="#produto">PRODUTO</a></li>
+                        <li><a class="scrollink" href="#planta">PLANTA</a></li>
+                        <li><a class="scrollink" href="#implantacao">IMPLANTAÇÃO</a></li>
+                        <li><a class="scrollink" href="#lazer">LAZER</a></li>
+                        <li><a class="scrollink" href="#localizacao">LOCALIZAÇÃO</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </nav>
-<div id="home" class="container-fluid padding-off home">
-    <div class="galeria">
-        <section class="glr-home slider">
+<div id="home" class="container-fluid home">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 padding-off">
             <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_02.jpg" alt="Landing Modelo">
-                </a>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Landing Modelo">
-                </a>
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_03.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_03.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_04.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_04.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_05.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_05.jpg" alt="Landing Modelo">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_06.jpg" alt="Landing Modelo">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_06.jpg" alt="Landing Modelo">
-            </div>
-        </section>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div id="fale-conosco" class="container-fluid padding-off contato">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center tt">
-                <p>Fale com a gente e leve um dos melhores azeites do mundo para a sua mesa.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-                <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-                    <div class="group-form">
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="TELEFONE" />
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <div class="custom_select">
-                                <select id="assunto1" class="assunto1 form-control" name="assunto1" required="required">
-                                    <option value="" disabled selected>ASSUNTO*</option>
-                                    <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
-                                    <option value="Revenda">Revenda</option>
-                                    <option value="Representação Comercial">Representação Comercial</option>
-                                    <option value="Outros assuntos">Outros assuntos</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                            <textarea id="form-mensagem" class="msg form-control" rows="4" name="mss" required="required" placeholder="MENSAGEM"></textarea>
-                        </div>
-                        <div class="col-xs-9 col-sm-8 col-md-8 form-group">
-                            <small>* Os campos marcados com asterisco são de preenchimento obrigatório.</small>
-                        </div>
-                        <div class="col-xs-3 col-sm-4 col-md-4 form-group">
-                            <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-                        </div>
-                    </div>
-                </form>
+                <img class="img-responsive" src="<?= base_url(); ?>assets/images/home.png" alt="Hits Cupece">
             </div>
         </div>
     </div>
 </div>
-
-
-<!-- <div id="cookies" class="cookies">
+<div class="container-fluid padding-off studio">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/pagina-1.png" alt="Hits Cupece">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="produto" class="container-fluid padding-off fachada">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+                    <p><span>hits</span> espera por você, <br class="visible-xs" /> <span>escolha já o seu.</span></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="galeria">
+                        <section class="glr-fachada slider">
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-01.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-01.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-02.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-02.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-03.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-03.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-04.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-04.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-05.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-05.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-06.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-06.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-07.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-07.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-08.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-08.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-09.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-09.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/fachada/fachada-10.png" data-lightbox="galeria-fachada">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/fachada/fachada-10.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="planta" class="container-fluid padding-off plantas">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+                    <p><span>MORE</span> NO LUGAR QUE <span> <br class="visible-xs" />NASCEU</span> PARA<span> SER SUCESSO.</span></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="galeria">
+                        <section class="glr-plantas slider">
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/plantas/plantas-02.png" data-lightbox="galeria-plantas">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/plantas/plantas-02.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/plantas/plantas-03.png" data-lightbox="galeria-plantas">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/plantas/plantas-03.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="lazer" class="container-fluid padding-off lazer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+                    <p><span>Aperte o play</span> e entre <br class="visible-xs" />no ritmo <span>da diversão.</span></p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="galeria">
+                        <section class="glr-lazer slider">
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-01.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-01.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-02.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-02.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-03.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-03.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-04.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-04.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-05.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-05.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-06.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-06.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-07.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-07.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-08.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-08.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-09.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-09.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-10.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-10.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-11.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-11.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-12.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-12.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-13.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-13.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-14.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-14.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-15.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-15.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-16.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-16.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-17.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-17.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="<?= base_url(); ?>assets/images/galeria/lazer/lazer-18.png" data-lightbox="galeria-lazer">
+                                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/lazer/lazer-18.png" alt="Hits Cupece">
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="localizacao">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1 padding-off">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center tt">
+                    <p>VIVER BEM É TER <span>TUDO PERTO</span> <br class="visible-xs" />E COM RÁPIDO ACESSO.</p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/localizacao.png" alt="Hits Cupece">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 local">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off showroom">
+                        <p>visite showroom: av. cupecê, 3545</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <span class="col-g">
+                            <span class="col-g-a">
+                                <p>
+                                    local do empreendimento:
+                                </p>
+                            </span>
+                        </span>
+                        <span class="col-g">
+                            <span class="col-g-b">
+                                <p> RUA DOM joão soares coelho, s/n</p>
+                            </span>
+                            <span class="col-g-c">
+                                <p> VILA SANTA CATARINA</p>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding-off contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-0">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off box-1">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center tt">
+                            <p>
+                                PARA SABER MAIS E FAZER<br />
+                                PARTE DESSE SUCESSO,<br />
+                                É SÓ FALAR COM A GENTE!
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <form method="post" role="form" id="hitscupece" action="<?php echo base_url("contato") ?>">
+                                <div class="group-form">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="telefone" class="phone form-control" type="tel" name="phone" required="required" placeholder="TELEFONE*" />
+                                    </div>
+                                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
+                                    </div> -->
+                                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
+                                    </div> -->
+                                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                        <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Validar</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <?php
+                            if (isset($email_enviado))
+                                echo $email_enviado;
+                            ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding-off redes">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="box">
+                        <a href="https://m.facebook.com/tsincorporacaoeconstrucao" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-facebook@2x.png" alt=""></a>
+                        <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
+                        <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-lg-offset-1">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                    <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logos.png" alt="Hits Cupece">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off texto-legal">
+                    <p>
+                        Empreendimento Hits Cupecê. Incorporação registrada no R.3 da matrícula 472.986 em 28/01/2022, no 11º Cartório de Registro de Imóveis de São Paulo. Todas as perspectivas, decoração e vegetação são meramente ilustrativas, podendo sofrer alterações no desenvolvimento do projeto executivo. * Terraço com churrasqueira somente nos apartamentos de 2 dormitórios.*As áreas comuns serão entregues equipadas e decoradas conforme memorial descritivo. **A quantidade inicial de máquinas dadas em comodato é determinada pela análise da equipe técnica especializada da OMO, podendo haver variações com o representado na perspectiva artística. Havendo necessidade de ajustes por aumento da demanda de uso, estes ficarão a critério do condomínio, respeitando a limitação de espaço físico. Intermediação: Patricia Ferreira Carvalho - R. Costa Carvalho, 148 - Pinheiros - Creci 216363-F.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
-                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossos
-                <a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a> e a nossa <a href="<?php echo base_url(); ?>politicadeprivacidade">Política de Privacidade</a>.
+                Este site utiliza cookies para melhorar sua experiência de navegação, permitir um início de sessão seguro, recolher estatísticas e oferecer conteúdo adequado aos seus interesses. Ao continuar sua navegação, considera-se aceito nossa Política de Privacidade.
             </p>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3">
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div> -->
-
-<?php
-if (isset($email_enviado))
-    echo $email_enviado;
-?>
+</div>

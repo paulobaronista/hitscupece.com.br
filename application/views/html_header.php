@@ -6,9 +6,9 @@
     <title><?php echo $title; ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Landing Modelo" />
-    <meta name="og:title" content="Landing Modelo" />
-    <meta name="og:description" content="Descrição" />
+    <meta name="title" content="Hits Cupece" />
+    <meta name="og:title" content="Hits Cupece" />
+    <meta name="og:description" content="Sucesso é viver bem." />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -16,12 +16,12 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?= base_url(); ?>assets/images/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="<?= base_url(); ?>assets/images/apple-touch-icon-57-precomposed.png">
     <link rel="image_src" href="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta name="theme-color" content="#aca727" />
+    <meta name="theme-color" content="#dcdcdc" />
     <!-- property (faz funcionar no linkedin) -->
-    <meta property="og:title" content="Landing Modelo" />
+    <meta property="og:title" content="Hits Cupece" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="Descrição" />
-    <meta property="og:url" content="https://www.landingpagemodelo.com.br" />
+    <meta property="Sucesso é viver bem." />
+    <meta property="og:url" content="https://hitscupece.com.br/" />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(
@@ -33,9 +33,10 @@
     );
     echo meta($meta);
     echo link_tag('assets/css/bootstrap.min.css');
-    echo link_tag('assets/css/style.css?v=0.0.1');
+    echo link_tag('assets/css/style.css?v=0.0.6');
+    echo link_tag('assets/css/lightbox.css');
     echo link_tag('assets/css/slick.css');
-    echo link_tag('assets/css/slick-theme.css?v=0.0.1');
+    echo link_tag('assets/css/slick-theme.css?v=0.0.4');
     ?>
 </head>
 
