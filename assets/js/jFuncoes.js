@@ -7,7 +7,7 @@ $(document).on('ready', function () {
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3100,
         arrows: true,
     });
 
@@ -18,7 +18,7 @@ $(document).on('ready', function () {
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3200,
         arrows: true,
     });
 
@@ -29,7 +29,7 @@ $(document).on('ready', function () {
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 3300,
         arrows: true,
     });
 

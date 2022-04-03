@@ -1148,6 +1148,14 @@ footer .local .showroom p {
   line-height: 16px;
   text-transform: uppercase;
   color: #e30613;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .local .showroom span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
 }
 
 footer .local .col-g {
@@ -1166,11 +1174,21 @@ footer .local .col-g p {
 footer .local .col-g .col-g-a p {
   font-weight: 400;
   color: #595959;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 footer .local .col-g .col-g-b p {
   color: #27348b;
   padding-left: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer .local .col-g .col-g-b span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
 }
 
 footer .local .col-g .col-g-c p {

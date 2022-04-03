@@ -255,7 +255,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 local">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off showroom">
-                        <p>visite showroom: av. cupecê, 3545</p>
+                        <p>visite showroom: av. cupecê, 3545</p><span class="hidden-xs"><img src="<?= base_url(); ?>assets/images/waze.png" alt="Waze"></span>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
                         <span class="col-g">
@@ -267,10 +267,10 @@
                         </span>
                         <span class="col-g">
                             <span class="col-g-b">
-                                <p> RUA DOM joão soares coelho, s/n</p>
+                                <p> RUA DOM joão soares coelho, s/n</p><span class="hidden-xs"><img src="<?= base_url(); ?>assets/images/waze.png" alt="Waze"></span>
                             </span>
                             <span class="col-g-c">
-                                <p> VILA SANTA CATARINA</p>
+                                <p> Vila império</p>
                             </span>
                         </span>
                     </div>
@@ -306,7 +306,7 @@
                                         <input id="imovel" class="imovel form-control" type="text" name="imovel" placeholder="QUANDO PRETENDE COMPRAR UM IMÓVEL?*" />
                                     </div> -->
                                     <!-- <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                                        <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS VILA SANTA CATARINA</textarea>
+                                        <textarea id="form-mensagem" class="msg form-control" cols="30" rows="5" name="mss" placeholder="SUA MENSAGEM">Quero mais informações sobre o HITS Cupece</textarea>
                                     </div> -->
                                     <div class="col-xs-12 col-sm-12 col-md-12 form-group">
                                         <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Validar</button>
@@ -332,7 +332,7 @@
                         <a href="https://instagram.com/tranchesisadek?utm_medium=copy_link" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-instagram@2x.png" alt=""></a>
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-phone@2x.png" alt=""></a>
                         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-whatsapp@2x.png" alt=""></a>
-                        <a href="#" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511998039252" target="_blank" class="links"><img src="<?= base_url(); ?>assets/images/icon-chat@2x.png" alt=""></a>
                     </div>
                 </div>
             </div>
