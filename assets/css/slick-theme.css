@@ -146,14 +146,14 @@
     .slick-prev,
     .slick-prev:hover,
     .slick-prev:focus {
-        width: 13px;
+        width: 23px;
         height: 43px;
         left: 5%;
     }
     .slick-next,
     .slick-next:hover,
     .slick-next:focus {
-        width: 13px;
+        width: 23px;
         height: 43px;
         right: 5%;
     }
