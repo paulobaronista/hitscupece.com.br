@@ -89,7 +89,6 @@ footer .local .col-g .col-g-a p {
 
 footer .local .col-g .col-g-b p {
   color: #27348b;
-  padding-left: 5px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -97,7 +96,7 @@ footer .local .col-g .col-g-b p {
 footer .local .col-g .col-g-b span {
   display: inline-block;
   vertical-align: middle;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 footer .local .col-g .col-g-c p {
@@ -105,6 +104,19 @@ footer .local .col-g .col-g-c p {
   color: #595959;
   padding-left: 5px;
   margin-top: 5px;
+}
+
+footer .btn-institucional {
+  margin-bottom: 30px;
+}
+
+footer .vista-aerea {
+  position: absolute;
+  bottom: 27px;
+  width: 350px;
+  display: block;
+  left: 40%;
+  margin-left: -175px;
 }
 
 footer .navbar-nav li {
@@ -167,6 +179,15 @@ footer .navbar-nav li:last-child a {
   footer .local .col-g .col-g-c p {
     padding-left: 0px;
     margin-top: 0;
+  }
+  footer .vista-aerea {
+    position: relative;
+    bottom: 0px;
+    width: 70%;
+    display: block;
+    left: 0%;
+    margin-left: 0px;
+    margin: 0px auto;
   }
   footer .navbar-nav {
     margin-top: 0;

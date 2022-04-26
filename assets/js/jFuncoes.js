@@ -11,7 +11,7 @@ $(document).on('ready', function () {
         arrows: true,
     });
 
-    $(".glr-plantas").slick({
+    $(".glr-implantacao").slick({
         dots: false,
         infinite: true,
         speed: 300,
@@ -32,7 +32,6 @@ $(document).on('ready', function () {
         autoplaySpeed: 3300,
         arrows: true,
     });
-
 });
 
 $(document).ready(function () {
@@ -116,6 +115,12 @@ $(document).ready(function () {
         window.location.href = "https://hitscupece.com.br/"
     });
 });
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
 
 $(function () {
     $('.nome').clear();

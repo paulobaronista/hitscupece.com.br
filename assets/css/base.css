@@ -323,15 +323,28 @@ p {
 .modalFichaTecnica,
 .modalImplantacao,
 .modalLocalizacao,
-.modalVideo {
+.modalVideo,
+.modalinstitucional,
+.modalVistaAerea {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalFichaTecnica .modal-lg,
+.modalImplantacao .modal-lg,
+.modalLocalizacao .modal-lg,
+.modalVideo .modal-lg,
+.modalinstitucional .modal-lg,
+.modalVistaAerea .modal-lg {
+  width: 900px;
 }
 
 .modalFichaTecnica .modal-content,
 .modalImplantacao .modal-content,
 .modalLocalizacao .modal-content,
-.modalVideo .modal-content {
-  background-color: #ffcb00;
+.modalVideo .modal-content,
+.modalinstitucional .modal-content,
+.modalVistaAerea .modal-content {
+  background-color: transparent;
   border: 0px solid transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -340,14 +353,18 @@ p {
 .modalFichaTecnica .modal-body,
 .modalImplantacao .modal-body,
 .modalLocalizacao .modal-body,
-.modalVideo .modal-body {
-  padding: 8px;
+.modalVideo .modal-body,
+.modalinstitucional .modal-body,
+.modalVistaAerea .modal-body {
+  padding: 0px;
 }
 
 .modalFichaTecnica .close,
 .modalImplantacao .close,
 .modalLocalizacao .close,
-.modalVideo .close {
+.modalVideo .close,
+.modalinstitucional .close,
+.modalVistaAerea .close {
   font-size: 27px;
   color: #fff;
   text-shadow: none;
@@ -476,7 +493,9 @@ p {
   .modalImplantacao .modal-dialog,
   .modalLocalizacao .modal-dialog,
   .modalVideo .modal-dialog,
-  .modalTagBeachTennis .modal-dialog {
+  .modalinstitucional .modal-dialog,
+  .modalTagBeachTennis .modal-dialog,
+  .modalVistaAerea .modal-dialog {
     margin: 4% auto 0;
   }
 }
@@ -500,18 +519,31 @@ p {
   .cookies .box .btn_cookie {
     margin-top: 20px;
   }
+  .modalFichaTecnica .modal-lg,
+  .modalImplantacao .modal-lg,
+  .modalLocalizacao .modal-lg,
+  .modalVideo .modal-lg,
+  .modalinstitucional .modal-lg,
+  .modalTagBeachTennis .modal-lg,
+  .modalVistaAerea .modal-lg {
+    width: 100%;
+  }
   .modalFichaTecnica .modal-dialog,
   .modalImplantacao .modal-dialog,
   .modalLocalizacao .modal-dialog,
   .modalVideo .modal-dialog,
-  .modalTagBeachTennis .modal-dialog {
+  .modalinstitucional .modal-dialog,
+  .modalTagBeachTennis .modal-dialog,
+  .modalVistaAerea .modal-dialog {
     margin: 20% auto 0;
   }
   .modalFichaTecnica .close,
   .modalImplantacao .close,
   .modalLocalizacao .close,
   .modalVideo .close,
-  .modalTagBeachTennis .close {
+  .modalinstitucional .close,
+  .modalTagBeachTennis .close,
+  .modalVistaAerea .close {
     top: -30px;
     right: 5px;
   }

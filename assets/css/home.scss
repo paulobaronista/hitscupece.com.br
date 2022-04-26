@@ -3,6 +3,12 @@
     background-position: center top;
     background-size: cover;
     padding-top: 60px;
+    .btn-video {
+        position: absolute;
+        bottom: 10%;
+        right: 15%;
+        width: 200px;
+    }
 }
 
 .studio {
@@ -40,7 +46,7 @@
     }
 }
 
-.plantas {
+.implantacao {
     background: url(../images/bg-3.jpg) no-repeat;
     background-position: center top;
     background-size: cover;
@@ -97,7 +103,7 @@
 .tag_beach_tennis {
     position: fixed;
     top: 25%;
-    right: 8%;
+    right: 4%;
     z-index: 200;
 }
 
@@ -108,6 +114,10 @@
         background-position: center center;
         background-size: cover;
         padding-top: 20px;
+
+        .btn-video {
+            width: 130px;
+        }
     }
 
     .studio {
@@ -160,6 +170,22 @@
         .tt {
             p {
                 font-size: 20px;
+                line-height: 25px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .implantacao {
+        background: url(../images/bg-3-mobile.jpg) no-repeat;
+        background-position: center top;
+        background-size: cover;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    
+        .tt {
+            p {
+                font-size: 18px;
                 line-height: 25px;
                 margin-bottom: 10px;
             }

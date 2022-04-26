@@ -314,17 +314,23 @@ p {
 .modalFichaTecnica,
 .modalImplantacao,
 .modalLocalizacao,
-.modalVideo {
+.modalVideo,
+.modalinstitucional,
+.modalVistaAerea {
     background-color: rgba(0, 0, 0, 0.5);
 
+    .modal-lg {
+        width: 900px;
+    }
+
     .modal-content {
-        background-color: #ffcb00;
+        background-color: transparent;
         border: 0px solid transparent;
         box-shadow: none;
     }
 
     .modal-body {
-        padding: 8px;
+        padding: 0px;
     }
 
     .close {
@@ -455,7 +461,10 @@ p {
     .modalImplantacao,
     .modalLocalizacao,
     .modalVideo,
-    .modalTagBeachTennis {
+    .modalinstitucional,
+    .modalTagBeachTennis,
+    .modalVistaAerea {
+        
         .modal-dialog {
             margin: 4% auto 0;
         }
@@ -495,7 +504,14 @@ p {
     .modalImplantacao,
     .modalLocalizacao,
     .modalVideo,
-    .modalTagBeachTennis {
+    .modalinstitucional,
+    .modalTagBeachTennis,
+    .modalVistaAerea {
+
+        .modal-lg {
+            width: 100%;
+        }
+
         .modal-dialog {
             margin: 20% auto 0;
         }
