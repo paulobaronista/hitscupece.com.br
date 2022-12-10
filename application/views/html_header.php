@@ -22,6 +22,7 @@
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <meta property="Sucesso é viver bem." />
     <meta property="og:url" content="https://hitscupece.com.br/" />
+    <meta name=“facebook-domain-verification” content=“21h7tpj6hzxdlaiywxvwpofw7343gn” />
     <!-- property (faz funcionar no linkedin) -->
     <?php
     $meta = array(
